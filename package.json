@@ -1,0 +1,39 @@
+{
+  "name": "@leofcoin/identity-utils",
+  "description": "",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./exports/index.js",
+    "./encrypt": "./exports/encrypt.js",
+    "./decrypt": "./exports/decrypt.js",
+    "./deriveKey": "./exports/derive-key.js",
+    "./password-to-key": "./exports/password-to-key.js"
+  },
+  "types": "./exports/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leofcoin/identity-utils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leofcoin/identity-utils/issues"
+  },
+  "homepage": "https://github.com/leofcoin/identity-utils#readme",
+  "dependencies": {
+    "@leofcoin/crypto": "^0.2.3",
+    "@vandeurenglenn/typed-array-smart-concat": "^1.0.4",
+    "@vandeurenglenn/typed-array-smart-deconcat": "^1.0.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^3.12.0",
+    "tslib": "^2.5.0"
+  }
+}
