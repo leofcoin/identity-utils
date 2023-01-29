@@ -10,6 +10,7 @@
     "./deriveKey": "./exports/derive-key.js",
     "./password-to-key": "./exports/password-to-key.js"
   },
+  "files": ["./exports"],
   "types": "./exports/index.d.ts",
   "scripts": {
     "build": "rollup -c",
