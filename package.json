@@ -1,7 +1,7 @@
 {
   "name": "@leofcoin/identity-utils",
   "description": "",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "exports": {
     ".": "./exports/index.js",
@@ -10,7 +10,9 @@
     "./deriveKey": "./exports/derive-key.js",
     "./password-to-key": "./exports/password-to-key.js"
   },
-  "files": ["./exports"],
+  "files": [
+    "./exports"
+  ],
   "types": "./exports/index.d.ts",
   "scripts": {
     "build": "rollup -c",
